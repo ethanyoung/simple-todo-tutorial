@@ -32,6 +32,9 @@ module.exports = {
     historyApiFallback: true,
     noInfo: true
   },
+  resolveLoader: {
+    moduleExtensions: ['-loader']
+  },
   devtool: '#eval-source-map'
 }
 
